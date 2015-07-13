@@ -1,0 +1,21 @@
+{
+  "name": "Ring_Of_Fire",
+  "version": "0.0.0",
+  "homepage": "https://github.com/WDI-HK-8/Ring_Of_Fire",
+  "authors": [
+    "raphaeldieu <dieuraphael@gmail.com>"
+  ],
+  "description": "Web version of the Ring Of Fire card game",
+  "main": "index.html",
+  "keywords": [
+    "wdi"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
