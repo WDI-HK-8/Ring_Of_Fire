@@ -1,4 +1,7 @@
-
+html, body{
+	height:100%;
+	width: 100%;
+}
 
 h1 {
 	text-align: center;
@@ -16,23 +19,32 @@ h1 {
 }
 
 #game_setting_section {
+	display: table;
 	position : relative;
 	width: 100%;
-	height:500px;
+	height:100%;
 	background-color: lightgrey;
 }
 
 #game_playing_section {
 	position : relative;
 	width: 100%;
-	height:500px;
+	height:100%;
 	background-color: lightblue;
 }
 
 #final_score_section {
 	position : relative;
 	width: 100%;
-	height:500px;
+	height:100%;
 	background-color: pink;
 }
 
+#pick_a_card{
+	text-align: center;
+}
+
+img {
+	width: 30%;
+	height: 30%;
+}
