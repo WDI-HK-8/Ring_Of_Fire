@@ -17,14 +17,23 @@ h1 {
 	height : 200px;
 	border : solid 1px black;
 }
+#general_rules{
+	display: table;
+	position : relative;
+	width: 100%;
+	height:100%;
+	background-color: orange;
+	text-align: center;
+}
 
-#game_setting_section {
+#add_players_panel{
 	display: table;
 	position : relative;
 	width: 100%;
 	height:100%;
 	background-color: lightgrey;
 }
+
 
 #game_playing_section {
 	position : relative;
