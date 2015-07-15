@@ -1,59 +1,310 @@
 html, body{
-	height:100%;
-	width: 100%;
+  height:100%;
+  width: 100%;
+  font-family: Chalkboard;
+}
+h2{
+  font-size: 40px;
+  color: white;
+  text-shadow: 0 0 20px red;
 }
 
-h1 {
-	text-align: center;
-}
+/*SECTION GENERAL RULES*/
 
-.score_table  td{
-
-	padding: 10px 80px 10px 10px;
-}
-
-#card {
-	text-align: center;
-	height : 200px;
-	border : solid 1px black;
-}
 #general_rules{
-	display: table;
-	position : relative;
-	width: 100%;
-	height:100%;
-	background-color: orange;
-	text-align: center;
+  display: table;
+  position : relative;
+  width: 100%;
+  height:100%;
+  background: url(/assets/img/cards/52_cards_no_filter.jpg);
+  background-size: cover;
 }
+h1 {
+  text-align: center;
+  font-size: 110px;
+  color: red;
+  text-shadow: 0 0 10px #ffbf00;
+  border-radius:50px;
+}
+#beer_title{
+  width: 8%;
+  height: 8%;
+}
+#general_rules p{
+  text-align: center;
+  font-size: 50px;
+  color: #ffbf00;
+  text-shadow: 0 0 20px red;
+}
+#title_general_rules{
+  font-size: 40px;
+  color: white;
+  text-shadow: 0 0 20px red
+}
+#content_general_rules{
+  background-color: rgba(255,255,255,0.9);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0px 7px 5px 0px #000000;
+}
+#content_general_rules li{
+  font-size: 25px;
+}
+#button_general_rules{
+  text-align: center;
+}
+#button_general_rules button{
+  margin-top: 20px;
+  padding:20px;
+  font-size: 30px;
+  border:2px solid red;
+  border-radius: 50px;
+  background-color: red;
+  color: white;
+  box-shadow: 0px 7px 5px 0px #000000;
+}
+#button_general_rules button:hover{
+  background-color: white;
+  color:red;
+}
+
+/*SECTION ADD PLAYERS PANEL*/
 
 #add_players_panel{
-	display: table;
-	position : relative;
-	width: 100%;
-	height:100%;
-	background-color: lightgrey;
+  display: table;
+  position : relative;
+  width: 100%;
+  height:100%;
+  background: url(/assets/img/cards/52_cards.jpg);
+  background-size: cover;
+}
+#create_player input{
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 20px;
+
+}
+#add_button{
+  width: 13%;
+  height:13%;
+}
+#add_button:hover{
+  cursor: pointer;
+  cursor:hand;
+}
+#add_players_panel li{
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  list-style-type: none;
+  background-color: rgba(255,0,0,0.5);
+  border-radius: 20px;
+  margin-top: 10px;
+}
+#start_button{
+  text-align: center;
+  padding: 0;
+}
+#start_game{
+  padding:20px 120px 20px 120px;
+  font-size: 30px;
+  border-radius: 50px;
+  border:2px solid red;
+  background-color: red;
+  color: white;
+  margin-top: 20px;
+  box-shadow: 0px 7px 5px 0px #000000;
+}
+#start_game:hover{
+  background-color: white;
+  color: red;
 }
 
-
+/*SECTION GAME PLAYING*/
+#card_phase{
+  margin-top: 60px;
+}
 #game_playing_section {
-	position : relative;
-	width: 100%;
-	height:100%;
-	background-color: lightblue;
+  position : relative;
+  width: 100%;
+  height:100%;
+  background: url(/assets/img/cards/52_cards.jpg);
+  background-size: cover;
 }
 
-#final_score_section {
-	position : relative;
-	width: 100%;
-	height:100%;
-	background-color: pink;
+  /*SCORE TABLE*/
+.score_table{
+  background: url(/assets/img/chalkboard.jpeg);
+  max-width: 100px;
+  max-height: 500px;
+  min-height: 300px;
+  border:4px solid brown;
+  border-radius: 5px;
+  color:white;
+  font-family: Chalkduster;
+  box-shadow: 0px 7px 5px 0px #000000;
+}
+#add_sips img{
+  width: 10%;
+  height:10%;
+}
+#add_sips:hover{
+  cursor:pointer;
+  cursor:hand;
+}
+.score_table td{
+  padding: 10px 50px 10px 10px;
+  margin-bottom: 5px;
+}
+.score_table thead{
+  font-size: 25px;
+}
+.score_table tbody{
+  font-size: 20px;
 }
 
 #pick_a_card{
-	text-align: center;
+  text-align: center;
+}
+  /*DYNAMIC INSTRUCTIONS*/
+
+#dynamic_instructions{
+  background-color: rgba(255,255,255,0.6);
+  border-radius: 20px;
+  min-height: 450px;
+  text-align: center;
+}
+#dynamic_instructions p{
+  font-size: 30px;
+}
+#red_arrow{
+  max-width: 50%;
+  max-height: 50%; 
 }
 
-img {
-	width: 30%;
-	height: 30%;
+#next_player_button{
+  padding: 30px;
+  font-size: 20px;
+  background-color: red;
+  color: white;
+  margin-top: 20px;
+  border-radius: 10px;
 }
+#next_player_button:hover{
+  background-color: white;
+  color: red;
+}
+#input_make_a_rule{
+  padding:10px 70px 10px 10px;
+  font-size: 20px;
+}
+#finish_rule{
+  padding:30px;
+  font-size: 25px;
+  background-color: red;
+  color:white;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+#finish_rule:hover{
+  background-color: white;
+  color:red;
+}
+#rules_added{
+  background-color:rgba(255,255,255,0.6);
+  margin-top: 5px;
+  text-align:center;
+}
+
+#rules_added p{
+  color:red;
+  font-size: 20px;
+  font-family: Chalkduster;
+}
+
+  /*CARD*/
+
+#card_container {
+  position: relative;
+  margin: 0px auto;
+  width: 350px;
+  height: 450px;
+  z-index: 1;
+
+}
+#card_container {
+  perspective: 1000;
+}
+#card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 1.0s linear;
+  border-radius: 10px;
+
+}
+
+#card_container #card {
+  transform:;
+  box-shadow: 0px 7px 5px 0px #000000;
+}
+
+.face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.face img{
+  position: absolute;
+  width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.face.back {
+  display: block;
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  background-color: #fff7f0;
+  border:1px solid #1925c7;
+  border-radius: 10px;
+}
+.face.back h4{
+  font-size: 30px;
+  color:black;
+}
+.face.back h5{
+  font-size: 40px;
+  color:red;
+}
+.face.back p{
+  font-size: 20px;
+  color:black;
+}
+
+/*SECTION FINAL SCORE*/
+
+#final_score_section {
+  position : relative;
+  width: 100%;
+  height:100%;
+  background: url(/assets/img/cards/0.jpg);
+  background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
